@@ -69,9 +69,10 @@ A Task Management Information System designed for group tasks. It allows users t
 
 ### ✱ AUTHOR
 
-<b>Jesslyn Dayto<b>
-Main Account: @ssejinx (jed2023-4600-60824@bicol-u.edu.ph, diezdayto@gmail.com)
-Contributor Account: @scarthediez (escarredsseji@gmail.com)
+##### Jesslyn Dayto
+
+- Main Account: @ssejinx (jed2023-4600-60824@bicol-u.edu.ph, diezdayto@gmail.com)
+- Contributor Account: @scarthediez (escarredsseji@gmail.com)
 
 EST. 2026
 
