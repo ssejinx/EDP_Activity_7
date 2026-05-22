@@ -71,3 +71,5 @@ A Task Management Information System designed for group tasks. It allows users t
 
 Main: @ssejinx (jed2023-4600-60824@bicol-u.edu.ph)
 Contributor: @scarthediez (escarredsseji@gmail.com)
+"" 
+"### Author Section updated by scarthediez" 
