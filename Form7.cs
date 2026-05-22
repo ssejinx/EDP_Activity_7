@@ -7,6 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
+using tasked_forms;
+
 
 namespace tasked_forms
 {
@@ -23,6 +26,11 @@ namespace tasked_forms
         }
 
         private void panel6_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }

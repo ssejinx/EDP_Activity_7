@@ -70,6 +70,7 @@
             this.checkBox1.Text = "I have read the terms and conditions";
             this.checkBox1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // textBox2
             // 
@@ -81,6 +82,7 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(357, 32);
             this.textBox2.TabIndex = 17;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // label2
             // 
@@ -104,6 +106,7 @@
             this.button2.TabIndex = 15;
             this.button2.Text = "Sign Up";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label1
             // 
@@ -129,6 +132,7 @@
             this.button1.TabIndex = 14;
             this.button1.Text = "I have an account";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label3
             // 
@@ -162,6 +166,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(352, 32);
             this.textBox1.TabIndex = 23;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBox3
             // 
@@ -173,6 +178,7 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(352, 32);
             this.textBox3.TabIndex = 26;
+            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // label6
             // 

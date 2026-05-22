@@ -28,17 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label14 = new System.Windows.Forms.Label();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.label7 = new System.Windows.Forms.Label();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.button6 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.button8 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.button3 = new System.Windows.Forms.Button();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
@@ -54,29 +62,23 @@
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.button4 = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
-            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.button7 = new System.Windows.Forms.Button();
             this.label13 = new System.Windows.Forms.Label();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.button6 = new System.Windows.Forms.Button();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label8 = new System.Windows.Forms.Label();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel1.SuspendLayout();
-            this.panel3.SuspendLayout();
-            this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.panel3.SuspendLayout();
+            this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // button2
@@ -155,6 +157,18 @@
             this.label14.Text = "-------------------------------------";
             this.label14.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
+            // pictureBox8
+            // 
+            this.pictureBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.pictureBox8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox8.Image = global::tasked_forms.Properties.Resources.Vector_3;
+            this.pictureBox8.Location = new System.Drawing.Point(112, 526);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(34, 30);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox8.TabIndex = 34;
+            this.pictureBox8.TabStop = false;
+            // 
             // label7
             // 
             this.label7.AutoSize = true;
@@ -167,6 +181,37 @@
             this.label7.TabIndex = 32;
             this.label7.Text = "-------------------------------------";
             this.label7.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pictureBox6.Enabled = false;
+            this.pictureBox6.Image = global::tasked_forms.Properties.Resources.image_2;
+            this.pictureBox6.Location = new System.Drawing.Point(88, 696);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(45, 42);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox6.TabIndex = 37;
+            this.pictureBox6.TabStop = false;
+            // 
+            // button6
+            // 
+            this.button6.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.button6.BackColor = System.Drawing.Color.White;
+            this.button6.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button6.FlatAppearance.BorderSize = 2;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button6.Font = new System.Drawing.Font("Inter", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.ForeColor = System.Drawing.Color.Blue;
+            this.button6.Image = global::tasked_forms.Properties.Resources.image_2;
+            this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button6.Location = new System.Drawing.Point(59, 685);
+            this.button6.Margin = new System.Windows.Forms.Padding(5);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(298, 62);
+            this.button6.TabIndex = 36;
+            this.button6.Text = "  @song_huijoxx";
+            this.button6.UseVisualStyleBackColor = false;
             // 
             // label2
             // 
@@ -193,6 +238,30 @@
             this.label6.TabIndex = 33;
             this.label6.Text = "-------------------------------------";
             this.label6.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.BackColor = System.Drawing.Color.White;
+            this.pictureBox9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pictureBox9.Image = global::tasked_forms.Properties.Resources.Star_2;
+            this.pictureBox9.Location = new System.Drawing.Point(103, 306);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(37, 33);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox9.TabIndex = 35;
+            this.pictureBox9.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pictureBox2.Enabled = false;
+            this.pictureBox2.Image = global::tasked_forms.Properties.Resources.Union;
+            this.pictureBox2.Location = new System.Drawing.Point(180, 35);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(59, 56);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 6;
+            this.pictureBox2.TabStop = false;
             // 
             // button8
             // 
@@ -240,6 +309,18 @@
             this.button5.Text = "Log Out";
             this.button5.UseVisualStyleBackColor = false;
             // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackColor = System.Drawing.Color.White;
+            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox4.Image = global::tasked_forms.Properties.Resources.Vector_2;
+            this.pictureBox4.Location = new System.Drawing.Point(103, 444);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(30, 38);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 29;
+            this.pictureBox4.TabStop = false;
+            // 
             // button3
             // 
             this.button3.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
@@ -257,6 +338,18 @@
             this.button3.TabIndex = 28;
             this.button3.Text = "Task";
             this.button3.UseVisualStyleBackColor = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.White;
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox3.Image = global::tasked_forms.Properties.Resources.Vector;
+            this.pictureBox3.Location = new System.Drawing.Point(103, 377);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(42, 36);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 27;
+            this.pictureBox3.TabStop = false;
             // 
             // label3
             // 
@@ -298,7 +391,7 @@
             "Deadines ",
             "Courses",
             "Members"});
-            this.comboBox1.Location = new System.Drawing.Point(943, 50);
+            this.comboBox1.Location = new System.Drawing.Point(941, 28);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(234, 34);
             this.comboBox1.TabIndex = 44;
@@ -354,6 +447,7 @@
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(203, 29);
             this.dateTimePicker1.TabIndex = 59;
+            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
             // label10
             // 
@@ -386,7 +480,7 @@
             this.panel3.Controls.Add(this.label5);
             this.panel3.Controls.Add(this.label9);
             this.panel3.Controls.Add(this.textBox1);
-            this.panel3.Location = new System.Drawing.Point(530, 234);
+            this.panel3.Location = new System.Drawing.Point(528, 212);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(649, 175);
             this.panel3.TabIndex = 64;
@@ -404,6 +498,7 @@
             this.checkBox2.Text = "Include Completed Task";
             this.checkBox2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.checkBox2.UseVisualStyleBackColor = true;
+            this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
             // 
             // checkBox1
             // 
@@ -417,6 +512,7 @@
             this.checkBox1.Text = "Include Subtasks";
             this.checkBox1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // dateTimePicker2
             // 
@@ -431,6 +527,7 @@
             this.dateTimePicker2.Name = "dateTimePicker2";
             this.dateTimePicker2.Size = new System.Drawing.Size(203, 29);
             this.dateTimePicker2.TabIndex = 65;
+            this.dateTimePicker2.ValueChanged += new System.EventHandler(this.dateTimePicker2_ValueChanged);
             // 
             // panel4
             // 
@@ -440,7 +537,7 @@
             this.panel4.Controls.Add(this.dateTimePicker1);
             this.panel4.Controls.Add(this.label10);
             this.panel4.Controls.Add(this.label12);
-            this.panel4.Location = new System.Drawing.Point(530, 135);
+            this.panel4.Location = new System.Drawing.Point(528, 113);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(649, 72);
             this.panel4.TabIndex = 68;
@@ -449,175 +546,38 @@
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.Blue;
-            this.panel5.Location = new System.Drawing.Point(530, 569);
+            this.panel5.Location = new System.Drawing.Point(531, 476);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(649, 10);
             this.panel5.TabIndex = 70;
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.Blue;
-            this.button4.FlatAppearance.BorderColor = System.Drawing.Color.Blue;
-            this.button4.FlatAppearance.BorderSize = 2;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Inter", 9F);
-            this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(236)))), ((int)(((byte)(255)))));
-            this.button4.Location = new System.Drawing.Point(869, 433);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(310, 49);
-            this.button4.TabIndex = 71;
-            this.button4.Text = "Export to Excel";
-            this.button4.UseVisualStyleBackColor = false;
             // 
             // label11
             // 
             this.label11.Font = new System.Drawing.Font("Inter", 13F, System.Drawing.FontStyle.Bold);
             this.label11.ForeColor = System.Drawing.Color.Blue;
-            this.label11.Location = new System.Drawing.Point(523, 519);
+            this.label11.Location = new System.Drawing.Point(524, 417);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(209, 37);
             this.label11.TabIndex = 72;
             this.label11.Text = "PREVIEW";
             this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // tableLayoutPanel1
-            // 
-            this.tableLayoutPanel1.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Inset;
-            this.tableLayoutPanel1.ColumnCount = 3;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 247F));
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(530, 603);
-            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 3;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 42F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(649, 153);
-            this.tableLayoutPanel1.TabIndex = 73;
-            // 
-            // button7
-            // 
-            this.button7.BackColor = System.Drawing.Color.Blue;
-            this.button7.FlatAppearance.BorderColor = System.Drawing.Color.Blue;
-            this.button7.FlatAppearance.BorderSize = 2;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("Inter", 9F);
-            this.button7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(236)))), ((int)(((byte)(255)))));
-            this.button7.Location = new System.Drawing.Point(530, 433);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(306, 49);
-            this.button7.TabIndex = 74;
-            this.button7.Text = "Generate Report";
-            this.button7.UseVisualStyleBackColor = false;
-            // 
             // label13
             // 
             this.label13.AutoSize = true;
             this.label13.BackColor = System.Drawing.Color.White;
-            this.label13.Font = new System.Drawing.Font("Inter", 10F);
+            this.label13.Font = new System.Drawing.Font("Inter", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.Gray;
-            this.label13.Location = new System.Drawing.Point(523, 774);
+            this.label13.Location = new System.Drawing.Point(527, 788);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(485, 28);
+            this.label13.Size = new System.Drawing.Size(389, 23);
             this.label13.TabIndex = 75;
             this.label13.Text = " Ready to export. Click \"Export to Excel\" to save. ";
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.pictureBox8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox8.Image = global::tasked_forms.Properties.Resources.Vector_3;
-            this.pictureBox8.Location = new System.Drawing.Point(112, 526);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(34, 30);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox8.TabIndex = 34;
-            this.pictureBox8.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox6.Enabled = false;
-            this.pictureBox6.Image = global::tasked_forms.Properties.Resources.image_2;
-            this.pictureBox6.Location = new System.Drawing.Point(88, 696);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(45, 42);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox6.TabIndex = 37;
-            this.pictureBox6.TabStop = false;
-            // 
-            // button6
-            // 
-            this.button6.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button6.BackColor = System.Drawing.Color.White;
-            this.button6.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button6.FlatAppearance.BorderSize = 2;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button6.Font = new System.Drawing.Font("Inter", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.Color.Blue;
-            this.button6.Image = global::tasked_forms.Properties.Resources.image_2;
-            this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button6.Location = new System.Drawing.Point(59, 685);
-            this.button6.Margin = new System.Windows.Forms.Padding(5);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(298, 62);
-            this.button6.TabIndex = 36;
-            this.button6.Text = "  @song_huijoxx";
-            this.button6.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox9
-            // 
-            this.pictureBox9.BackColor = System.Drawing.Color.White;
-            this.pictureBox9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox9.Image = global::tasked_forms.Properties.Resources.Star_2;
-            this.pictureBox9.Location = new System.Drawing.Point(103, 306);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(37, 33);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox9.TabIndex = 35;
-            this.pictureBox9.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox2.Enabled = false;
-            this.pictureBox2.Image = global::tasked_forms.Properties.Resources.Union;
-            this.pictureBox2.Location = new System.Drawing.Point(180, 35);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(59, 56);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 6;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.BackColor = System.Drawing.Color.White;
-            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox4.Image = global::tasked_forms.Properties.Resources.Vector_2;
-            this.pictureBox4.Location = new System.Drawing.Point(103, 444);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(30, 38);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 29;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackColor = System.Drawing.Color.White;
-            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox3.Image = global::tasked_forms.Properties.Resources.Vector;
-            this.pictureBox3.Location = new System.Drawing.Point(103, 377);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(42, 36);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 27;
-            this.pictureBox3.TabStop = false;
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Blue;
-            this.panel2.Location = new System.Drawing.Point(528, 97);
+            this.panel2.Location = new System.Drawing.Point(526, 75);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(649, 10);
             this.panel2.TabIndex = 54;
@@ -626,12 +586,67 @@
             // 
             this.label8.Font = new System.Drawing.Font("Inter", 13F, System.Drawing.FontStyle.Bold);
             this.label8.ForeColor = System.Drawing.Color.Blue;
-            this.label8.Location = new System.Drawing.Point(523, 50);
+            this.label8.Location = new System.Drawing.Point(521, 28);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(209, 37);
             this.label8.TabIndex = 55;
             this.label8.Text = "REPORTS";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // button7
+            // 
+            this.button7.BackColor = System.Drawing.Color.Blue;
+            this.button7.FlatAppearance.BorderColor = System.Drawing.Color.Blue;
+            this.button7.FlatAppearance.BorderSize = 2;
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button7.Font = new System.Drawing.Font("Inter", 9F);
+            this.button7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(236)))), ((int)(((byte)(255)))));
+            this.button7.Location = new System.Drawing.Point(739, 408);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(210, 49);
+            this.button7.TabIndex = 77;
+            this.button7.Text = "Generate Report";
+            this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.Blue;
+            this.button4.FlatAppearance.BorderColor = System.Drawing.Color.Blue;
+            this.button4.FlatAppearance.BorderSize = 2;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button4.Font = new System.Drawing.Font("Inter", 9F);
+            this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(236)))), ((int)(((byte)(255)))));
+            this.button4.Location = new System.Drawing.Point(970, 408);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(210, 49);
+            this.button4.TabIndex = 76;
+            this.button4.Text = "Export to Excel";
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.AllowUserToResizeColumns = false;
+            this.dataGridView1.AllowUserToResizeRows = false;
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
+            this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.dataGridView1.ColumnHeadersHeight = 30;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
+            this.dataGridView1.GridColor = System.Drawing.Color.White;
+            this.dataGridView1.Location = new System.Drawing.Point(531, 504);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.ReadOnly = true;
+            this.dataGridView1.RowHeadersWidth = 62;
+            this.dataGridView1.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Inter", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.dataGridView1.RowTemplate.DefaultCellStyle.Font = new System.Drawing.Font("Inter Medium", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dataGridView1.RowTemplate.Height = 30;
+            this.dataGridView1.Size = new System.Drawing.Size(647, 272);
+            this.dataGridView1.TabIndex = 84;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // Form5
             // 
@@ -639,12 +654,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1278, 844);
-            this.Controls.Add(this.label13);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button7);
-            this.Controls.Add(this.tableLayoutPanel1);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.label13);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.button4);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.label8);
@@ -661,16 +676,17 @@
             this.Load += new System.EventHandler(this.Form5_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -709,14 +725,14 @@
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }

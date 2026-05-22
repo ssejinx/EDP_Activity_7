@@ -65,6 +65,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(444, 32);
             this.textBox1.TabIndex = 21;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label3
             // 
@@ -74,6 +75,7 @@
             this.label3.Size = new System.Drawing.Size(149, 28);
             this.label3.TabIndex = 17;
             this.label3.Text = "Email Address";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // button2
             // 
@@ -123,6 +125,7 @@
             this.linkLabel1.TabIndex = 25;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Back To LogIn";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // label7
             // 

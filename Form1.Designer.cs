@@ -28,121 +28,125 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.logo = new System.Windows.Forms.Label();
+            this.signUpBtn = new System.Windows.Forms.Button();
+            this.logInBtn = new System.Windows.Forms.Button();
+            this.usernameLabel = new System.Windows.Forms.Label();
+            this.passwordlabel = new System.Windows.Forms.Label();
+            this.usernametxtbox = new System.Windows.Forms.TextBox();
+            this.agreementCheckBox = new System.Windows.Forms.CheckBox();
+            this.forgotpassword = new System.Windows.Forms.LinkLabel();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.passwordtxtbox = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label6 = new System.Windows.Forms.Label();
+            this.logopic = new System.Windows.Forms.PictureBox();
+            this.dashedDivider = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.logopic)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
+            // logo
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Mignone", 55F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Blue;
-            this.label1.Location = new System.Drawing.Point(620, 92);
-            this.label1.Margin = new System.Windows.Forms.Padding(0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(407, 133);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "tasked";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.logo.AutoSize = true;
+            this.logo.Font = new System.Drawing.Font("Mignone", 55F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.logo.ForeColor = System.Drawing.Color.Blue;
+            this.logo.Location = new System.Drawing.Point(620, 92);
+            this.logo.Margin = new System.Windows.Forms.Padding(0);
+            this.logo.Name = "logo";
+            this.logo.Size = new System.Drawing.Size(407, 133);
+            this.logo.TabIndex = 0;
+            this.logo.Text = "tasked";
+            this.logo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.logo.Click += new System.EventHandler(this.label1_Click);
             // 
-            // button1
+            // signUpBtn
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Blue;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(628, 598);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(384, 61);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "I don\'t have an account";
-            this.button1.UseVisualStyleBackColor = false;
+            this.signUpBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.signUpBtn.FlatAppearance.BorderColor = System.Drawing.Color.Blue;
+            this.signUpBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.signUpBtn.Location = new System.Drawing.Point(628, 598);
+            this.signUpBtn.Name = "signUpBtn";
+            this.signUpBtn.Size = new System.Drawing.Size(384, 61);
+            this.signUpBtn.TabIndex = 0;
+            this.signUpBtn.Text = "I don\'t have an account";
+            this.signUpBtn.UseVisualStyleBackColor = false;
+            this.signUpBtn.Click += new System.EventHandler(this.signUpBtn_Click);
             // 
-            // button2
+            // logInBtn
             // 
-            this.button2.BackColor = System.Drawing.Color.Blue;
-            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.Blue;
-            this.button2.FlatAppearance.BorderSize = 2;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.button2.Location = new System.Drawing.Point(628, 517);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(384, 61);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Log In";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.logInBtn.BackColor = System.Drawing.Color.Blue;
+            this.logInBtn.FlatAppearance.BorderColor = System.Drawing.Color.Blue;
+            this.logInBtn.FlatAppearance.BorderSize = 2;
+            this.logInBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.logInBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.logInBtn.Location = new System.Drawing.Point(628, 517);
+            this.logInBtn.Name = "logInBtn";
+            this.logInBtn.Size = new System.Drawing.Size(384, 61);
+            this.logInBtn.TabIndex = 1;
+            this.logInBtn.Text = "Log In";
+            this.logInBtn.UseVisualStyleBackColor = false;
+            this.logInBtn.Click += new System.EventHandler(this.button2_Click);
             // 
-            // label2
+            // usernameLabel
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(622, 242);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(111, 28);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Username";
+            this.usernameLabel.AutoSize = true;
+            this.usernameLabel.Location = new System.Drawing.Point(622, 242);
+            this.usernameLabel.Name = "usernameLabel";
+            this.usernameLabel.Size = new System.Drawing.Size(111, 28);
+            this.usernameLabel.TabIndex = 2;
+            this.usernameLabel.Text = "Username";
+            this.usernameLabel.Click += new System.EventHandler(this.usernameLabel_Click);
             // 
-            // label3
+            // passwordlabel
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(622, 344);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(106, 28);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Password";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+            this.passwordlabel.AutoSize = true;
+            this.passwordlabel.Location = new System.Drawing.Point(622, 344);
+            this.passwordlabel.Name = "passwordlabel";
+            this.passwordlabel.Size = new System.Drawing.Size(106, 28);
+            this.passwordlabel.TabIndex = 3;
+            this.passwordlabel.Text = "Password";
+            this.passwordlabel.Click += new System.EventHandler(this.label3_Click);
             // 
-            // textBox2
+            // usernametxtbox
             // 
-            this.textBox2.BackColor = System.Drawing.Color.White;
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Font = new System.Drawing.Font("Inter", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.ForeColor = System.Drawing.Color.Blue;
-            this.textBox2.Location = new System.Drawing.Point(631, 273);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(352, 32);
-            this.textBox2.TabIndex = 3;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.usernametxtbox.BackColor = System.Drawing.Color.White;
+            this.usernametxtbox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.usernametxtbox.Font = new System.Drawing.Font("Inter", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.usernametxtbox.ForeColor = System.Drawing.Color.Blue;
+            this.usernametxtbox.Location = new System.Drawing.Point(631, 273);
+            this.usernametxtbox.Name = "usernametxtbox";
+            this.usernametxtbox.Size = new System.Drawing.Size(352, 32);
+            this.usernametxtbox.TabIndex = 3;
+            this.usernametxtbox.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
-            // checkBox1
+            // agreementCheckBox
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.checkBox1.Location = new System.Drawing.Point(627, 692);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(389, 32);
-            this.checkBox1.TabIndex = 7;
-            this.checkBox1.Text = "I have read the terms and conditions";
-            this.checkBox1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.agreementCheckBox.AutoSize = true;
+            this.agreementCheckBox.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.agreementCheckBox.Location = new System.Drawing.Point(627, 692);
+            this.agreementCheckBox.Name = "agreementCheckBox";
+            this.agreementCheckBox.Size = new System.Drawing.Size(389, 32);
+            this.agreementCheckBox.TabIndex = 7;
+            this.agreementCheckBox.Text = "I have read the terms and conditions";
+            this.agreementCheckBox.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.agreementCheckBox.UseVisualStyleBackColor = true;
+            this.agreementCheckBox.CheckedChanged += new System.EventHandler(this.agreementCheckBox_CheckedChanged);
             // 
-            // linkLabel1
+            // forgotpassword
             // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.DisabledLinkColor = System.Drawing.Color.DarkGray;
-            this.linkLabel1.ForeColor = System.Drawing.Color.Gray;
-            this.linkLabel1.LinkColor = System.Drawing.Color.Gray;
-            this.linkLabel1.Location = new System.Drawing.Point(835, 434);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(173, 28);
-            this.linkLabel1.TabIndex = 8;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "Forgot password";
-            this.linkLabel1.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.forgotpassword.AutoSize = true;
+            this.forgotpassword.DisabledLinkColor = System.Drawing.Color.DarkGray;
+            this.forgotpassword.ForeColor = System.Drawing.Color.Gray;
+            this.forgotpassword.LinkColor = System.Drawing.Color.Gray;
+            this.forgotpassword.Location = new System.Drawing.Point(835, 434);
+            this.forgotpassword.Name = "forgotpassword";
+            this.forgotpassword.Size = new System.Drawing.Size(173, 28);
+            this.forgotpassword.TabIndex = 8;
+            this.forgotpassword.TabStop = true;
+            this.forgotpassword.Text = "Forgot password";
+            this.forgotpassword.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.forgotpassword.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.forgotpassword_LinkClicked);
             // 
             // label4
             // 
@@ -171,50 +175,51 @@
             this.label5.Text = "--------------------------------------------------";
             this.label5.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // textBox1
+            // passwordtxtbox
             // 
-            this.textBox1.BackColor = System.Drawing.Color.White;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Inter", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.Color.Blue;
-            this.textBox1.Location = new System.Drawing.Point(631, 375);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(352, 32);
-            this.textBox1.TabIndex = 12;
+            this.passwordtxtbox.BackColor = System.Drawing.Color.White;
+            this.passwordtxtbox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.passwordtxtbox.Font = new System.Drawing.Font("Inter", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.passwordtxtbox.ForeColor = System.Drawing.Color.Blue;
+            this.passwordtxtbox.Location = new System.Drawing.Point(631, 375);
+            this.passwordtxtbox.Name = "passwordtxtbox";
+            this.passwordtxtbox.Size = new System.Drawing.Size(352, 32);
+            this.passwordtxtbox.TabIndex = 12;
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Blue;
-            this.panel1.Controls.Add(this.pictureBox1);
+            this.panel1.Controls.Add(this.logopic);
             this.panel1.Location = new System.Drawing.Point(2, 1);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(379, 846);
             this.panel1.TabIndex = 26;
             // 
-            // pictureBox1
+            // logopic
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.White;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox1.Image = global::tasked_forms.Properties.Resources.Subtract_Cover_fnl;
-            this.pictureBox1.Location = new System.Drawing.Point(-3, -7);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(386, 853);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 14;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.logopic.BackColor = System.Drawing.Color.White;
+            this.logopic.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.logopic.Image = global::tasked_forms.Properties.Resources.Subtract_Cover_fnl;
+            this.logopic.Location = new System.Drawing.Point(-3, -7);
+            this.logopic.Name = "logopic";
+            this.logopic.Size = new System.Drawing.Size(386, 853);
+            this.logopic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.logopic.TabIndex = 14;
+            this.logopic.TabStop = false;
+            this.logopic.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // label6
+            // dashedDivider
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Inter", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.Blue;
-            this.label6.Location = new System.Drawing.Point(387, -102);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(18, 980);
-            this.label6.TabIndex = 27;
-            this.label6.Text = "I\r\nI\r\nI\r\nI\r\nI\r\nI\r\nI\r\nI\r\nI\r\nI\r\nI\r\nI\r\nI\r\nI\r\nI\r\nI\r\nI\r\nI\r\nI\r\nI\r\nI\r\nI\r\nI\r\nI\r\nI\r\nI\r\nI\r\n" +
+            this.dashedDivider.AutoSize = true;
+            this.dashedDivider.Font = new System.Drawing.Font("Inter", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dashedDivider.ForeColor = System.Drawing.Color.Blue;
+            this.dashedDivider.Location = new System.Drawing.Point(387, -102);
+            this.dashedDivider.Name = "dashedDivider";
+            this.dashedDivider.Size = new System.Drawing.Size(18, 980);
+            this.dashedDivider.TabIndex = 27;
+            this.dashedDivider.Text = "I\r\nI\r\nI\r\nI\r\nI\r\nI\r\nI\r\nI\r\nI\r\nI\r\nI\r\nI\r\nI\r\nI\r\nI\r\nI\r\nI\r\nI\r\nI\r\nI\r\nI\r\nI\r\nI\r\nI\r\nI\r\nI\r\nI\r\n" +
     "I\r\nI\r\nI\r\nI\r\nI\r\nI\r\nI\r\n\r\n";
+            this.dashedDivider.Click += new System.EventHandler(this.dashedDivider_Click);
             // 
             // Form1
             // 
@@ -223,19 +228,19 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1278, 844);
-            this.Controls.Add(this.label6);
+            this.Controls.Add(this.dashedDivider);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.passwordtxtbox);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.linkLabel1);
-            this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.forgotpassword);
+            this.Controls.Add(this.agreementCheckBox);
+            this.Controls.Add(this.usernametxtbox);
+            this.Controls.Add(this.passwordlabel);
+            this.Controls.Add(this.usernameLabel);
+            this.Controls.Add(this.logInBtn);
+            this.Controls.Add(this.logo);
+            this.Controls.Add(this.signUpBtn);
             this.Font = new System.Drawing.Font("Inter", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.Blue;
             this.Margin = new System.Windows.Forms.Padding(4);
@@ -245,7 +250,7 @@
             this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.logopic)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -253,20 +258,20 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.Label logo;
+        private System.Windows.Forms.Button signUpBtn;
+        private System.Windows.Forms.Button logInBtn;
+        private System.Windows.Forms.Label usernameLabel;
+        private System.Windows.Forms.Label passwordlabel;
+        private System.Windows.Forms.TextBox usernametxtbox;
+        private System.Windows.Forms.CheckBox agreementCheckBox;
+        private System.Windows.Forms.LinkLabel forgotpassword;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox passwordtxtbox;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.PictureBox logopic;
+        private System.Windows.Forms.Label dashedDivider;
     }
 }
 
