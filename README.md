@@ -66,10 +66,3 @@ A Task Management Information System designed for group tasks. It allows users t
 5. Press `F5` to run
 
 ---
-
-### ✱ AUTHORS
-
-Main: @ssejinx (jed2023-4600-60824@bicol-u.edu.ph)
-Contributor: @scarthediez (escarredsseji@gmail.com)
-"" 
-"### Author Section updated by scarthediez" 
